@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> Game</title>
+        <link rel="stylesheet" href="rockpaper.css">
+        
+    </head>
+
+    <body>
+        <div>
+        <p class="title">
+            Rock Paper Scissors
+        </p>
+       <button class="rock" onclick="play('rock')"><img src="rock-emoji.png"></button>
+       <button class="paper" onclick="play('paper')"><img src="paper-emoji.png"></button>
+       <button class="scissors" onclick="play('scissors')"><img src="scissors-emoji.png"></button>
+
+       <p class="currScore">
+        Win:0,lose:0,Tie:0;
+       </p>
+
+       <p class="result"></p>
+
+       <p class="complement"></p>
+
+       <button class="reset" onclick="resetScore()">reset Score</button>
+        </div>
+        
+       
+
+<script src="rockpaper.js"></script>
+
+    </body>
+</html>
